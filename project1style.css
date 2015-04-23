@@ -1,0 +1,92 @@
+
+/*Main Body Positioning */
+body {
+	padding: 20px 10px;
+	font-family: arial;
+	max-width: 960px;
+	margin: 5px auto;
+	font-size: 16px;
+} 
+
+/*Text FONT Custom*/
+h1 {
+	text-align: center;
+	color: #FF0000;
+}
+
+h2 {
+	margin: 20px;
+	color: black;
+	text-align: center;
+}
+
+
+p{
+	margin: 10px auto 5px auto;
+}
+
+ol {
+	list-style-type: none;
+	color: #FF6600;
+	padding-bottom: 20px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/*Remove a href color*/
+li a{
+color: #FF6600;
+}
+
+li {
+	font-size: 20px;
+	line-height: 35px; 
+}
+
+/*Main NanoNotes Container DIV*/
+.nanonotes {
+	background-color: #FF9900;
+	color: white;
+	padding: 10px;
+	margin: 20px 20px;
+}
+
+.lessonbox {
+	background-color: #FF6633;
+	padding: 4px;
+	margin: 10px;
+}
+
+.lessonsubheading {
+	font-size: 28px;
+	margin: 10px;
+	text-align: center;
+}
+
+.listspan {
+	color : black;
+	font-weight: bold;
+}
+
+/*This is Default CSS Settings*/
+article { 
+    display: block;
+}
+
+
+/*This for Code Examples*/
+
+.boxcode{
+	font-family: Courier;
+	background-color: black;
+	padding: 5px 8px;
+	display: inline-block;
+}
+/*This for Code Intendation to Left*/
+
+.intendcode {
+	margin-left: 38px;
+}
